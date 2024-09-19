@@ -4,14 +4,14 @@
 
 ### Pré Requisitos:
 - É altamente recomendado a utilização de um terminal no estilo PowerShell/Bash que aceite comandos como `cat`, `ls` e etc.
-- A recomendação em ambiente Windows é utilizar o `Windows Terminal` que já vem instalado em máquinas com Windows 11, caso não seja o seu caso ele pode ser facilmente instalado pela `Microsoft Store`
+- A recomendação em ambiente Windows é utilizar o `Windows Terminal` que já vem instalado em máquinas com Windows 11. Caso não seja o seu caso, ele pode ser facilmente instalado pela `Microsoft Store`
   <hr/> 
   <div style="text-align: center;">  
      <img src="assets/terminal.jpg" alt="Windows Terminal" width="400"/>
     </div>
 ### 1. Realizar download e instalação do Git em sua máquina
-- Acessar o site do Git e realizar o download  ([Link de download do Git](https://git-scm.com/downloads))
-  ou se preferir, de forma mais simples no ambiente Windows podemos executar o seguinte comando:
+- Acesse o site do Git e realize o download  ([Link de download do Git](https://git-scm.com/downloads))
+  Ou, se preferir uma forma mais simples, no ambiente Windows podemos executar o seguinte comando:
     ```
     winget install --id Git.Git -e --source winget
     ```
@@ -23,7 +23,7 @@
     ```
     git version 2.46.0
     ```
-- Configurar informações de usuário no ambiente local com os seguintes comandos no terminal
+- Configure informações de usuário no ambiente local com os seguintes comandos no terminal
   - Configurar nome do usuário:
     ```
       git config --global user.name "Fulano de Tal"
@@ -33,11 +33,11 @@
       git config --global user.email fulanodetal@exemplo.br
     ```
 ### 2. Criar uma conta no GitHub
-- Acessar o site do [GitHub](https://github.com/) e criar uma nova conta.
-  - Após criar uma nova conta devemos vincular uma chave SSH do ambiente local à sua conta do GitHub:
-  - Esta etapa da configuração pode ser um pouco chata então vou deixar um vídeo como forma de auxílio caso seja necessário ([Link do vídeo](https://www.youtube.com/watch?v=B4p5P3UlD6I))
+- Acesse o site do [GitHub](https://github.com/) e crie uma nova conta.
+  - Após criar uma nova conta, devemos vincular uma chave SSH do ambiente local à sua conta do GitHub:
+  - Esta etapa da configuração pode ser um pouco chata, então vou deixar um vídeo como forma de auxílio caso seja necessário ([Link do vídeo](https://www.youtube.com/watch?v=B4p5P3UlD6I))
   
-  1. Para gerar uma chave SSH devemos utilizar o seguinte comando no terminal:
+  1. Para gerar uma chave SSH, devemos utilizar o seguinte comando no terminal:
        ```
        ssh-keygen -t rsa -b 4096 -C "seu_email_aqui@email.com"
        ```
@@ -47,16 +47,16 @@
        ```
        Aperte a tecla `Enter` para seguir pra próxima etapa
   
-  3. Neste momento irá aparecer a mensagem:
+  3. Neste momento, irá aparecer a mensagem:
       ```
       Enter passphrase (empty for no passphrase):
       ```
-      Se você deseja ter uma senha que deve ser digitada toda vez que uma alteração no código é feita (não recomendo kkk) é neste momento que você deve criar ela, 
-      caso contrário só aperte `Enter` e não será gerada nenhuma senha.
+      Se você deseja ter uma senha que deve ser digitada toda vez que uma alteração no código é feita (não recomendo kkk), é neste momento que você deve criar ela. 
+      Caso contrário, só aperte `Enter` e não será gerada nenhuma senha.
       ```
       Enter same passphrase again:
       ```
-      Aqui é só apertar `Enter` de novo e ta tudo certo.
+      Aqui é só apertar `Enter` de novo e estará tudo certo.
   
   4. E finalmente após todo esse processo uma mensagem como essa deve ser gerada:
       ```
@@ -79,9 +79,9 @@
       ```
 
 ### 3. Vincular a chave SSH gerada ao GitHub
-- Nesta etapa iremos copiar o conteúdo da chave gerada no arquivo `id_rsa.pub`, que deve estar localizada no local onde foi salva nos passos anteriores,
+- Nesta etapa iremos copiar o conteúdo da chave gerada no arquivo `id_rsa.pub`, que deve estar localizada no local onde foi salva nos passos anteriores;
 no exemplo anterior ela foi salva no path `C:\Users\fulano/.ssh/id_rsa.pub`
-- Devemos acessar o diretório em que a chave foi salva, neste caso a minha foi salva no diretório do meu usuário padrão do computador, acredito que a de vocês seja o mesmo caso
+- Devemos acessar o diretório em que a chave foi salva, provavelmente no diretório do seu usuário padrão do computador.
  ```
  # O terminal de vocês deve abrir e ter esse diretório por padrão muito provavelmente
  
@@ -123,7 +123,6 @@ DUoDt7k05sdbfhjeTDW40385ej22IeSHORlJ9DOMh7MnpkJ9G7CyHSrAf+3gbelxest3NWNe4dDnP1+E
 4uFuxY5L4hDF997UFY+ZP1n10TJtilVU26ylw/8DYEz+PVSZmbdN8QrnxvLmmH6Pnf/5ICVoF2Fv3LSnvId7wV2bF0QvI7xw== 
 fulano@email.com
 ```
-Após isso iremos copiar o conteúdo que foi impresso no terminal, podem selecionar tudo e dar um `Ctrl C`
 
 Agora iremos para o GitHub vincular essa chave SSH em nossa conta
 - Primeiramente iremos abrir o nosso perfil no GitHub e procurar a aba `settings` 
@@ -136,8 +135,10 @@ Agora iremos para o GitHub vincular essa chave SSH em nossa conta
 
     ![Passo 3](assets/passo3.jpeg)
 
-- Insira um título para a sua nova chave e logo após insira a chave que copiamos no terminal no campo específico
+- Insira um título para a sua nova chave e logo após insira a chave, copiada do terminal, no campo específico
 
   ![Passo 4](assets/passo4.jpeg)
 
-### 4. Tá pronto o sorvetinho, agora é só esperar e dia 27/09 nos encontramos novamente para o início da oficina  🐈🚀  
+### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 27/09 para o início da oficina  🐈🚀  
+
+### Caso suja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
