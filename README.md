@@ -10,7 +10,7 @@
      <img src="assets/terminal.jpg" alt="Windows Terminal" width="400"/>
     </div>
 ### 1. Realizar download e instalação do Git em sua máquina
-- Acessar o site do Git e realizar o download  ([Link de download do Git]([https://git-scm.com/downloads]) )
+- Acessar o site do Git e realizar o download  ([Link de download do Git](https://git-scm.com/downloads))
   ou se preferir, de forma mais simples no ambiente Windows podemos executar o seguinte comando:
     ```
     winget install --id Git.Git -e --source winget
@@ -33,9 +33,9 @@
       git config --global user.email fulanodetal@exemplo.br
     ```
 ### 2. Criar uma conta no GitHub
-- Acessar o site do [GitHub]([https://github.com/) e criar uma nova conta.
+- Acessar o site do [GitHub](https://github.com/) e criar uma nova conta.
   - Após criar uma nova conta devemos vincular uma chave SSH do ambiente local à sua conta do GitHub:
-  - Esta etapa da configuração pode ser um pouco chata então vou deixar um vídeo como forma de auxílio caso seja necessário ([Link do vídeo]([https://www.youtube.com/watch?v=B4p5P3UlD6I]))
+  - Esta etapa da configuração pode ser um pouco chata então vou deixar um vídeo como forma de auxílio caso seja necessário ([Link do vídeo](https://www.youtube.com/watch?v=B4p5P3UlD6I))
   
   1. Para gerar uma chave SSH devemos utilizar o seguinte comando no terminal:
        ```
