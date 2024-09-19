@@ -141,4 +141,4 @@ Por fim iremos para o GitHub vincular a chave SSH em nossa conta
 
 ### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 27/09 para o início da oficina  🐈🚀  
 
-### Caso suja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
+### Caso surja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
