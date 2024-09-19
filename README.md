@@ -116,15 +116,15 @@ cat .\id_rsa.pub
 ```
 O resultado deve ser parecido com esse:
 ```
-PS C:\Users\fulano\.ssh> cat .\id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSEWrwG1tJ13JMKM0BSwWs93BUPkkE+7WHJLQrblF7RgSXF3j9f90RLE5q3LsdQKB8wZx/rd2HcN3e6dvbTf22adtX4CyeA65U8XyL/2dAbtpZIxgim3BLAsfiQx8nIhuignb598YVaBg1dCY37VEqc0QBxr3bVqzFv5eXeLwy
 YKvGR1ENBDgfhdfg1fhhjmhdgfhd629ppUuDE6/GevCAiWSMBUlP5pE2IXksJUrpFQ3rDACCVMek/2reVevY0IUywmcR7BMk1BLO3q4MzpgLpZp9ZZdSTcriD7KBaEZh2rxkqFzHNQvhTGq287YXWj0JiOdhmMYIprbK5HQJsUOgY5XgbxHoG13c2fewrnborcK3JB
 DUoDt7k05sdbfhjeTDW40385ej22IeSHORlJ9DOMh7MnpkJ9G7CyHSrAf+3gbelxest3NWNe4dDnP1+ESa4rZttg+DbpNidzhs2eSlSa9Vb+NTzAgTX+XxCIgCoT+6waUycGYsFI6br8eVxH9sYBPAtQDLQV17tcyu24+ivspjmLbgoICLc0q2SKV6GkmVrX3CCTclnA3
 4uFuxY5L4hDF997UFY+ZP1n10TJtilVU26ylw/8DYEz+PVSZmbdN8QrnxvLmmH6Pnf/5ICVoF2Fv3LSnvId7wV2bF0QvI7xw== 
 fulano@email.com
 ```
+Após isso iremos copiar o conteúdo que foi impresso no terminal, podem selecionar tudo e dar um `Ctrl C`
 
-Agora iremos para o GitHub vincular essa chave SSH em nossa conta
+Por fim iremos para o GitHub vincular a chave SSH em nossa conta
 - Primeiramente iremos abrir o nosso perfil no GitHub e procurar a aba `settings` 
 
     ![Passo 1](assets/passo1.jpeg)
