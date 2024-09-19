@@ -11,15 +11,21 @@
     </div>
 ### 1. Realizar download e instalação do Git em sua máquina
 - Acesse o site do Git e realize o download  ([Link de download do Git](https://git-scm.com/downloads))
-  Ou, se preferir uma forma mais simples, no ambiente Windows podemos executar o seguinte comando:
+  ou, se preferir uma forma mais simples, no ambiente Windows podemos executar o seguinte comando:
     ```
     winget install --id Git.Git -e --source winget
     ```
-- Após a instalação, abrir o terminal local e verificar se o comando:
+- Caso esteja em ambiente Linux (Debian/Ubuntu), o comando equivalente é:
+    ```
+    apt-get install git
+    ```
+  após executar o comando será aberta uma janela de instalação do Git.
+- Com a instalação finalizada, vamos abrir o terminal local e verificar se o comando:
    ```
   git --version
    ```
-  é executado corretamente de forma com que o output esperado no terminal seja algo do tipo:
+   
+  é executado corretamente, de forma com que o output esperado no terminal seja algo do tipo:
     ```
     git version 2.46.0
     ```
