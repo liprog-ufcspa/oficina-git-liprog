@@ -5,7 +5,9 @@
 ### Pré Requisitos:
 - É altamente recomendado a utilização de um terminal no estilo PowerShell/Bash que aceite comandos como `cat`, `ls` e etc.
 - A recomendação em ambiente Windows é utilizar o `Windows Terminal` que já vem instalado em máquinas com Windows 11. Caso não seja o seu caso, ele pode ser facilmente instalado pela `Microsoft Store`
-  <hr/> 
+- É extremamente importante ter um conhecimento prévio sobre os comandos __básicos__ de `Terminal`, segue um vídeo de apoio. ([Comandos básicos de Terminal](https://youtu.be/JEhVB4VHsTI?si=mY7fkYDdejW-3WpF))
+- Caso queiram ir pesquisando sobre o conteúdo da oficina, segue um vídeo introdutório. ([Alura - O que são Git e Github?](https://youtu.be/P4BNi_yPehc?si=ewyC3TVAUp0ROnJq))
+   <hr/> 
   <div style="text-align: center;">  
      <img src="assets/terminal.jpg" alt="Windows Terminal" width="400"/>
     </div>
@@ -116,7 +118,7 @@ Mode                 LastWriteTime         Length Name
 -a----        19/09/2024     12:50            751 id_rsa.pub 👈 (vamos usar este)
 
 ```
-Agora só precisamos copiar o conteúdo dentro deste arquivo através do comando `cat` que vai imprimir um output no terminal com as informações desse arquivo.
+Agora só precisamos copiar o conteúdo dentro deste arquivo, iremos utilizar o comando `cat` que vai imprimir um output no terminal com as informações desse arquivo.
 ```
 cat .\id_rsa.pub
 ```
@@ -145,6 +147,6 @@ Por fim iremos para o GitHub vincular a chave SSH em nossa conta
 
   ![Passo 4](assets/passo4.jpeg)
 
-### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 27/09 para o início da oficina  🐈🚀  
+### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 26/05 para o início da oficina  🐈🚀  
 
 ### Caso surja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
