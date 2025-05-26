@@ -147,6 +147,6 @@ Por fim iremos para o GitHub vincular a chave SSH em nossa conta
 
   ![Passo 4](assets/passo4.jpeg)
 
-### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 26/05 para o início da oficina  🐈🚀  
+### 4. Tá pronto o sorvetinho! Nos vemos novamente dia 27/05 para o início da oficina  🐈🚀  
 
 ### Caso surja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
