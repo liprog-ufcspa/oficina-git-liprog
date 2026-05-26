@@ -42,7 +42,7 @@
     ```
 ### 2. Criar uma conta no GitHub
 - Acesse o site do [GitHub](https://github.com/) e crie uma nova conta.
-  - Após criar uma nova conta, devemos vincular uma chave SSH do ambiente local à sua conta do GitHub:
+  - Após criar uma nova conta, devemos vincular uma chave SSH do ambiente local à sua conta do GitHub **(caso esteja usando o computador de algum Lab da UFCSPA pode pular essa parte de configuração de SSH)**:
   - Esta etapa da configuração pode ser um pouco chata, então vou deixar um vídeo como forma de auxílio caso seja necessário ([Link do vídeo](https://www.youtube.com/watch?v=B4p5P3UlD6I))
   
   1. Para gerar uma chave SSH, devemos utilizar o seguinte comando no terminal:
